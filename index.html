@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mayara's Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="app/styles/site.css">
+        <link rel="icon" href="app/images/logo.png" type="gif" sizes="16x16">
+        <!--BOOTSTRAP 3---->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> <!google font>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"><!media icons>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <div id="logo">
+                        <img class="center-block img-responsive" src="app/images/logo.png" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div id="header" class="container text-center">
+            <img class="img-responsive" src="app/images/header.png" alt="header">
+        </div>
+    </section>
+
+    <!-- First Container -->
+
+    <section id="about">
+        <div class="wrapper container-fluid bg-1 text-center">
+            <!--<h2 class="margin ">About me</h2>-->
+
+            <div class="col-md-6">
+                 <img src="app/images/aboutMe.png" alt="" class="img-responsive">
+                 <p>I chose to study Computer Science because I would love to help the advancement of medical technology and be able to make a difference in people’s lives.</p>
+
+
+            </div>
+
+            <div id="edu" class="col-md-6">
+                <p class="text-left">My name is Mayara and I am pursing a bachelor’s degree in Computer Science at San Francisco State University.<br><br>  
+                    Throughout my years in school I have developed a passion for programming and love the idea of learning and building something new. I am self-motivated and enjoy working as part of a group as well as individually. <br><br>
+                    My technical skills include the programming languages Java, C++, HTML, JavaScript (jQuery), CSS and Python, along with the understanding of OOP/design patterns, data structures and algorithm efficiency concepts.<br><br>
+                    Some of my hobbies include traveling, photography, image editing, trying new types of food and playing with my cat.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="wrapper container-fluid bg-2 text-center">
+            <h2>Java Projects</h2>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <h4 class="text-center"> Lisp Expression Evaluator </h4>
+                        <img src="app/images/lisp.png" alt="" class="img-responsive">
+                        <div class="caption">
+                            <!--<h3>Thumbnail label</h3> -->
+                            <p class="text-left"> This program evaluates Lisp expressions composed of the four basic operators and integer values.
+                                Used my own implementation of a stack to evaluate the expressions. <br></p>
+                            <a href="#" class="btn btn-primary" role="button"><i class="fa fa-github"></i> View Code </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <h4 class="text-center"> Bank Simulator </h4>
+                        <img src="app/images/bank.png" class="img-responsive" alt="">
+                        <div class="caption">
+                            <!--<h3>Thumbnail label</h3> -->
+                            <p class="text-left"> This program simulates a bank with multiple tellers. It collects statistical information about the bank’s customers and tellers 
+                                and shows a final report. 
+                            </p>
+                            <a href="#" class="btn btn-primary" role="button"><i class="fa fa-github"></i> View Code </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <h4 class="text-center"> Poker Game </h4>
+                        <img src="app/images/cards.png" alt="">
+                        <div class="caption">
+                            <!--<h3>Thumbnail label</h3> -->
+                            <p class="text-left"> In this game the user can choose how much to bet, see current balance, choose card to keep or change. When wining combination is played the user receives a pay out. </p>
+                            <a href="#" class="btn btn-primary" role="button"><i class="fa fa-github"></i> View Code </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects2">
+        <div class="wrapper container-fluid bg-3 text-center">
+            <h2> C++ Projects</h2>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <h4 class="text-center"> General Tree </h4>
+                        <img src="app/images/tree.png" alt="">
+                        <div class="caption">
+                            
+                            <p class="text-left"> Implementation of a general tree with methods to print, insert and remove.
+                                <br><br>
+                            </p>
+                            <a href="#" class="btn btn-primary" role="button"><i class="fa fa-github"></i> View Code </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <h4 class="text-center"> Dijkstra's Algorithm </h4>
+                        <img src="app/images/graph.png" class="img-responsive" alt="">
+                        <div class="caption">
+                            <!--<h3>Thumbnail label</h3> -->
+                            <p class="text-left"> Implementation of shortest path algorithm in unweighted graph. Used unordered map, set, queue and vector. 
+                                
+                                
+                            </p>
+                            <a href="#" class="btn btn-primary" role="button"><i class="fa fa-github"></i> View Code </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <h4 class="text-center"> Polynomial Evaluator </h4>
+                        <img src="app/images/poly.png" alt="">
+                        <div class="caption">
+                            <!--<h3>Thumbnail label</h3> -->
+                            <p class="text-left"> This program allows the user to enter a polynomial function and get its degree, multiply, negate, add, change coefficient of a term and print.
+                            </p>
+                            <a href="#" class="btn btn-primary" role="button"><i class="fa fa-github"></i> View Code </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="wrapper container-fluid text-center">
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> 
+            <script>document.write(new Date().getFullYear())</script> 
+            <a href="http://csc412sfsu.com/~mbrandao/" style="color:#52b4af;"> Mayara Dusheyko. </a> All rights reserved.  
+        </p>
+        <div class="pull-right">
+            <a href="https://github.com/mayarabd" target="_blank"><i class="fa fa-github-square fa-3x" style="color:#52b4af;"></i></a>
+            <a href="https://www.linkedin.com/in/mayarabd/" target="_blank"><i class="fa fa-linkedin-square fa-3x " style="color:#52b4af;"></i></a>
+        </div>
+    </footer>
+</body>
+</html>"
